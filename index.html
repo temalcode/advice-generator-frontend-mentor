@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <div class="advice">
+    <h4 class="advice__title">ADVICE <span class="advice__number" id="adviceNumber"></span></h4>
+    <p class="advice__para" id="advicePara">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, obcaecati!"</p>
+    <div class="advice__divider">
+      <img width="300px" class="advice__divider__img" src="images/pattern-divider-desktop.svg" alt="">
+    </div>
+    <button class="advice__icon" onclick="getAdvice()">
+      <img width="17px" src="images/icon-dice.svg" alt="">
+    </button>
+  </div>
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
